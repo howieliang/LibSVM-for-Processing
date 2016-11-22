@@ -6,7 +6,7 @@ The Example is based on the original LibSVM library
 (LibSVM Website: http://www.csie.ntu.edu.tw/~cjlin/libsvm/)
 
 - Example 1. Train a Linear SVM
-Input: Labelled data formed by Click and Drag the mouse cursor on the canvas.
+Input: Labelled data formed by Click and Drag the mouse cursor on the canvas.\\
 Output: A Linear SVM model for classifying the mouse position
 
 - Example 2. Load a Linear SVM
