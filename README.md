@@ -1,5 +1,6 @@
 # LibSVM-for-Processing
 A set of processing examples that demonstrates the capability of multi-class classification on a 2D SVM.
+by Rong-Hao Liang: r.liang@tue.nl
 
 Without installing a library, you can perform SVM classification in processing with these examples.
 The Example is based on the original LibSVM library
