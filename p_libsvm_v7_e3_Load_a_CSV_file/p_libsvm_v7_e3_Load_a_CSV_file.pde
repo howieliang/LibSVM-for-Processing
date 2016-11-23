@@ -116,7 +116,7 @@ void mouseDragged() {
 }
 
 void keyPressed() {
-  if (key == ENTER || key == ENTER) {
+  if (key == ENTER) {
     if (tCnt>0 || type>0) {
       svmTrained = false;
       if (!firstTrained) firstTrained = true;
@@ -134,7 +134,7 @@ void keyPressed() {
     if (!firstTrained) firstTrained = true;
     maxLabel = type;
   }
-  if (key == ' ') {
+  if (key == TAB) {
     if (tCnt>0) { 
       if (type<(colors.length-1))++type;
       tCnt = 0;
