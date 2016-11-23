@@ -155,7 +155,7 @@ void keyPressed() {
     if (!firstTrained) firstTrained = true;
     maxLabel = type;
   }
-  if (key == ' ') {
+  if (key == TAB) {
     if (tCnt>0) { 
       if (type<(colors.length-1))++type;
       tCnt = 0;
