@@ -38,7 +38,7 @@ void drawTestNode (int predictLabel, svm_node[] testNode, svm_model model) {
 void drawInfo(int x, int y) {
   String manual = "\n- Press [ENTER] to Train the SVM"+
       "\n- Press N=[0-9] to Train the SVM with C=2^N"+
-      "\n- Press [SPACE] to change label color"+
+      "\n- Press [TAB] to change label color"+
       "\n- Press [/] to clear data"+
       "\n- Press [S] to save model"+
       "\n- Press [I] to toggle info";
