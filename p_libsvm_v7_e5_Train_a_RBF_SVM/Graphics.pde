@@ -40,7 +40,7 @@ void drawInfo(int kernelType, int x, int y) {
     "\n- Press N=[1-5] to Train an RBF SVM with C=4^N"+
     "\n- Press N=[6-9] to Train an RBF SVM with Gamma=4^(N-9)"+
     "\n- Press N=[0] to Train a Linear SVM with C=1024"+
-    "\n- Press [SPACE] to change label color"+
+    "\n- Press [TAB] to change label color"+
     "\n- Press [/] to clear data"+
     "\n- Press [S] to save model"+
     "\n- Press [I] to toggle info";
