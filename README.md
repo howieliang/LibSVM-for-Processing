@@ -23,9 +23,13 @@ Output: A model for classifying the mouse position based on the model loaded.
 Input: A Dataset in non-CSV file format.
 Output: A model for classifying the mouse position based on the model loaded.
 
-- Example 5. Train a RBF SVM
+- Example 5. Train an RBF SVM
 Input: Labelled data formed by Click and Drag the mouse cursor on the canvas.
-Output: A RBF-Kernel SVM model for classifying the mouse position.
+Output: An RBF-Kernel SVM model for classifying the mouse position.
+
+- Example 6. Grid Search for SVM
+Input: Labelled data formed by Click and Drag the mouse cursor on the canvas.
+Output: A Linear- or RBF-Kernel SVM model with the best parameters in grid search.
 
 A Tool for generating CSV file is also provided
 - CSV generator
